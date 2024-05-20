@@ -4,7 +4,7 @@ import Grid from "@mui/material/Grid";
 import Container from "@mui/material/Container";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import FacebookIcon from "@mui/icons-material/Facebook";
-import XIcon from "@mui/icons-material/X";
+import InstagramIcon from "@mui/icons-material/Instagram";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
 import Header from "./Header/Header";
 import MainFeaturedPost from "./Posts/MainFeaturedPost";
@@ -17,43 +17,37 @@ import post2 from "./Posts/post2";
 import post3 from "./Posts/post3";
 
 const sections = [
-  { title: "Technology", url: "#" },
-  { title: "Design", url: "#" },
-  { title: "Culture", url: "#" },
-  { title: "Business", url: "#" },
-  { title: "Politics", url: "#" },
-  { title: "Opinion", url: "#" },
-  { title: "Science", url: "#" },
-  { title: "Health", url: "#" },
-  { title: "Style", url: "#" },
-  { title: "Travel", url: "#" },
+  { title: "Recipes", url: "recipes" },
+  { title: "Cooking Tips", url: "cooking-tips" },
+  { title: "International Food", url: "international-food" },
+  { title: "Food vloggers", url: "food-vloggers" },
 ];
 
 const mainFeaturedPost = {
-  title: "Title of a longer featured blog post",
+  title: "Mastering the Art of Homemade Pasta",
   description:
-    "Multiple lines of text that form the lede, informing new readers quickly and efficiently about what's most interesting in this post's contents.",
-  image: "https://source.unsplash.com/random?wallpapers",
-  imageText: "main image description",
+    "Dive into the delightful world of homemade pasta with this comprehensive guide. From selecting the best ingredients to mastering the perfect dough consistency, discover tips and tricks that will elevate your pasta-making skills.",
+  image: "https://source.unsplash.com/random?cooking",
+  imageText: "Homemade pasta in the making",
   linkText: "Continue reading…",
 };
 
 const featuredPosts = [
   {
-    title: "Featured post",
-    date: "Nov 12",
+    title: "5 Essential Tips for Perfect Sourdough Bread",
+    date: "May 20",
     description:
-      "This is a wider card with supporting text below as a natural lead-in to additional content.",
-    image: "https://source.unsplash.com/random?wallpapers",
-    imageLabel: "Image Text",
+      "Learn the secrets to baking the perfect sourdough bread, from maintaining your starter to achieving that coveted crust.",
+    image: "https://source.unsplash.com/random?bread",
+    imageLabel: "Sourdough bread",
   },
   {
-    title: "Post title",
-    date: "Nov 11",
+    title: "Exploring Global Flavors: Thai Cooking at Home",
+    date: "May 18",
     description:
-      "This is a wider card with supporting text below as a natural lead-in to additional content.",
-    image: "https://source.unsplash.com/random?wallpapers",
-    imageLabel: "Image Text",
+      "Bring the vibrant flavors of Thai cuisine into your kitchen with these easy-to-follow recipes and cooking techniques.",
+    image: "https://source.unsplash.com/random?thai-cooking",
+    imageLabel: "Thai cuisine",
   },
 ];
 
@@ -62,24 +56,36 @@ const posts = [post1, post2, post3];
 const sidebar = {
   title: "About",
   description:
-    "Etiam porta sem malesuada magna mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.",
+    '"Deliciously Yours" is your go-to food blog for mouthwatering recipes and culinary inspiration. Discover a mix of global cuisines, cooking tips, and beautiful food photography, perfect for every home cook. Join us and make every meal a delicious adventure!',
   archives: [
-    { title: "March 2020", url: "#" },
-    { title: "February 2020", url: "#" },
-    { title: "January 2020", url: "#" },
-    { title: "November 1999", url: "#" },
-    { title: "October 1999", url: "#" },
-    { title: "September 1999", url: "#" },
-    { title: "August 1999", url: "#" },
-    { title: "July 1999", url: "#" },
-    { title: "June 1999", url: "#" },
-    { title: "May 1999", url: "#" },
-    { title: "April 1999", url: "#" },
+    { title: "March 2020", url: "/archives/march-2020" },
+    { title: "February 2020", url: "/archives/february-2020" },
+    { title: "January 2020", url: "/archives/january-2020" },
+    { title: "November 1999", url: "/archives/november-1999" },
+    { title: "October 1999", url: "/archives/october-1999" },
+    { title: "September 1999", url: "/archives/september-1999" },
+    { title: "August 1999", url: "/archives/august-1999" },
+    { title: "July 1999", url: "/archives/july-1999" },
+    { title: "June 1999", url: "/archives/june-1999" },
+    { title: "May 1999", url: "/archives/may-1999" },
+    { title: "April 1999", url: "/archives/april-1999" },
   ],
   social: [
-    { name: "GitHub", icon: GitHubIcon },
-    { name: "X", icon: XIcon },
-    { name: "Facebook", icon: FacebookIcon },
+    {
+      name: "GitHub",
+      icon: GitHubIcon,
+      url: "https://github.com/Barleu/DevOps---Recipes-App",
+    },
+    {
+      name: "Instagram",
+      icon: InstagramIcon,
+      url: "https://www.instagram.com/haaave_u_met_oana/",
+    },
+    {
+      name: "Facebook",
+      icon: FacebookIcon,
+      url: "https://www.facebook.com/barleu.barbu.oana/",
+    },
   ],
 };
 
@@ -99,7 +105,7 @@ export default function Blog() {
             ))}
           </Grid>
           <Grid container spacing={5} sx={{ mt: 3 }}>
-            <Main title="From the firehose" posts={posts} />
+            <Main title="From the oven" posts={posts} />
             <Sidebar
               title={sidebar.title}
               description={sidebar.description}
@@ -110,8 +116,8 @@ export default function Blog() {
         </main>
       </Container>
       <Footer
-        title="Footer"
-        description="Something here to give the footer a purpose!"
+        title="Deliciously Yours"
+        description="Let's explore the world of flavors together!"
       />
     </ThemeProvider>
   );
