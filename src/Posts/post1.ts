@@ -1,47 +1,29 @@
 const post1 = `
-# Sample blog post
+# Savoring the Art of Cooking
 
-_April 1, 2020 by [Olivier](/)_
+*April 1, 2020 by [Chef Olivier](/)*
 
-Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.
-Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.
+Indulge in the artistry of cooking as we embark on a journey filled with flavors, textures, and culinary wonders. Cooking is not merely a task; it's a passion that ignites the senses and nourishes the soul. Join me as we delve into the world of cooking and recipes, where every dish is a canvas and every meal is an expression of creativity.
 
-Curabitur blandit tempus porttitor. **Nullam quis risus eget urna mollis** ornare vel eu leo.
-Nullam id dolor id nibh ultricies vehicula ut id elit.
+## Unveiling Culinary Inspiration
 
-Etiam porta sem malesuada magna mollis euismod. Cras mattis consectetur purus sit amet fermentum.
-Aenean lacinia bibendum nulla sed consectetur.
+Unlock your culinary potential and awaken your inner chef as we explore the realms of gastronomy. Whether you're a novice in the kitchen or a seasoned cook, there's always room to experiment and innovate. From mastering the basics to venturing into uncharted culinary territories, let's embark on a journey of discovery and culinary excellence.
 
-## Heading
+### Crafting Culinary Delights
 
-Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.
-Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.
-Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
+Let your imagination run wild as we craft culinary delights that tantalize the taste buds and evoke memories of home-cooked goodness. From traditional comfort foods to contemporary creations, each recipe is a testament to the joy of cooking. Join me in the kitchen as we transform simple ingredients into culinary masterpieces that leave a lasting impression.
 
-### Sub-heading 1
+### Embracing Global Flavors
 
-Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+Embark on a culinary expedition around the globe and discover the rich tapestry of flavors that define cuisines from every corner of the world. From the fiery spices of Mexico to the delicate aromas of Asia, we'll explore a diverse array of culinary traditions and techniques. Expand your culinary horizons and bring the vibrant flavors of the world to your own kitchen.
 
-### Sub-heading 2
+- **Spicy Mexican Street Tacos:** Experience the bold and vibrant flavors of Mexico with these mouthwatering street-style tacos bursting with fresh ingredients and zesty spices.
+- **Italian-Inspired Pasta Carbonara:** Transport yourself to the cobblestone streets of Rome with this classic pasta dish featuring rich, creamy sauce and crispy bacon.
+- **Indian Butter Chicken:** Indulge in the aromatic spices of India with this flavorful dish featuring tender chicken simmered in a creamy tomato-based sauce.
 
-Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod.
-Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo
-sit amet risus.
+## Cultivating a Love for Food
 
-- Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
-- Donec id elit non mi porta gravida at eget metus.
-- Nulla vitae elit libero, a pharetra augue.
-
-Donec ullamcorper nulla non metus auctor fringilla. Nulla vitae elit libero, a pharetra augue.
-
-1. Vestibulum id ligula porta felis euismod semper.
-1. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-1. Maecenas sed diam eget risus varius blandit sit amet non magna.
-
-Cras mattis consectetur purus sit amet fermentum. Sed posuere consectetur est at lobortis.
-
+Food is more than just sustenance; it's a celebration of life and a reflection of culture. Through cooking and sharing meals with loved ones, we create moments of joy and connection that nourish both body and soul. Join me on this culinary odyssey, where every recipe is a story waiting to be told and every meal is an opportunity for culinary delight.
 `;
 
 export default post1;

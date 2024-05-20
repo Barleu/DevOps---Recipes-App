@@ -1,46 +1,28 @@
 const post2 = `
-# Sample blog post
+# The Joy of Home Cooking
 
-_April 1, 2020 by [Olivier](/)_
+*April 1, 2020 by [Chef Olivier](/)*
 
-Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.
-Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.
+Discover the simple pleasure of home cooking as we embark on a culinary journey filled with warmth, comfort, and delicious flavors. Cooking at home is not just about preparing meals; it's about creating memories and fostering a sense of connection with loved ones. Join me as we explore the art of home cooking and celebrate the heartwarming traditions that make every meal special.
 
-Curabitur blandit tempus porttitor. **Nullam quis risus eget urna mollis** ornare vel eu leo.
-Nullam id dolor id nibh ultricies vehicula ut id elit.
+## Embracing Family Recipes
 
-Etiam porta sem malesuada magna mollis euismod. Cras mattis consectetur purus sit amet fermentum.
-Aenean lacinia bibendum nulla sed consectetur.
+Embrace the rich tapestry of family recipes that have been passed down through generations, each one a cherished heirloom steeped in tradition and love. From grandma's secret spaghetti sauce to mom's famous apple pie, these recipes hold the power to evoke memories of laughter, love, and togetherness. Let's honor these culinary legacies and create new memories to cherish for years to come.
 
-## Heading
+### Creating Comfort in the Kitchen
 
-Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.
-Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.
-Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
+Find solace in the kitchen as we cook up comforting classics that soothe the soul and nourish the spirit. From hearty stews to decadent desserts, there's nothing quite like the comfort of homemade food made with love. Join me in rediscovering the joy of simple pleasures and the comforting embrace of a home-cooked meal.
 
-### Sub-heading 1
+### Nurturing Connection Through Food
 
-Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+Food has a magical way of bringing people together, fostering bonds that transcend time and distance. Through the act of cooking and sharing meals with loved ones, we cultivate deeper connections and create moments of joy and celebration. Join me on this journey of culinary exploration, where every meal is an opportunity to nourish both body and soul.
 
-### Sub-heading 2
+- **Classic Chicken Pot Pie:** Dive into a comforting dish of tender chicken and vegetables nestled in a flaky pastry crust, a timeless favorite that never fails to delight.
+- **Homemade Chocolate Chip Cookies:** Indulge in the simple pleasure of warm, gooey cookies fresh from the oven, a sweet treat that brings joy to the young and old alike.
 
-Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod.
-Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo
-sit amet risus.
+## Celebrating the Art of Cooking
 
-- Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
-- Donec id elit non mi porta gravida at eget metus.
-- Nulla vitae elit libero, a pharetra augue.
-
-Donec ullamcorper nulla non metus auctor fringilla. Nulla vitae elit libero, a pharetra augue.
-
-1. Vestibulum id ligula porta felis euismod semper.
-1. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-1. Maecenas sed diam eget risus varius blandit sit amet non magna.
-
-Cras mattis consectetur purus sit amet fermentum. Sed posuere consectetur est at lobortis.
+Cooking is more than just a necessity; it's a form of self-expression and a celebration of life's simple joys. Join me in honoring the art of home cooking and savoring the moments that make every meal special.
 `;
 
 export default post2;
