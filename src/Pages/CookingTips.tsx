@@ -1,4 +1,3 @@
-// CookingTipsPage.tsx
 import React from "react";
 import CssBaseline from "@mui/material/CssBaseline";
 import Container from "@mui/material/Container";
@@ -46,7 +45,7 @@ const featuredPosts = [
   },
 ];
 
-const posts = [cookingTipsPost1, cookingTipsPost2]; // Include specific cooking tips posts
+const posts = [cookingTipsPost1, cookingTipsPost2];
 
 const CookingTipsPage: React.FC = () => {
   return (
