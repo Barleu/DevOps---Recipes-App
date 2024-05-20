@@ -4,6 +4,7 @@ import Stack from "@mui/material/Stack";
 import Paper from "@mui/material/Paper";
 import Typography from "@mui/material/Typography";
 import Link from "@mui/material/Link";
+import { useFlag } from "@unleash/proxy-client-react";
 
 interface SidebarProps {
   archives: ReadonlyArray<{
@@ -21,6 +22,7 @@ interface SidebarProps {
 
 export default function Sidebar(props: SidebarProps) {
   const { archives, description, social, title } = props;
+  const rolloutArchives = useFlag("archives");
 
   return (
     <Grid item xs={12} md={4}>
@@ -30,19 +32,22 @@ export default function Sidebar(props: SidebarProps) {
         </Typography>
         <Typography>{description}</Typography>
       </Paper>
-      <Typography variant="h6" gutterBottom sx={{ mt: 3 }}>
-        Archives
-      </Typography>
-      {archives.map((archive) => (
-        <Link
-          display="block"
-          variant="body1"
-          href={archive.url}
-          key={archive.title}
-        >
-          {archive.title}
-        </Link>
-      ))}
+      {rolloutArchives && (
+        <Typography variant="h6" gutterBottom sx={{ mt: 3 }}>
+          Archives
+        </Typography>
+      )}
+      {rolloutArchives &&
+        archives.map((archive) => (
+          <Link
+            display="block"
+            variant="body1"
+            href={archive.url}
+            key={archive.title}
+          >
+            {archive.title}
+          </Link>
+        ))}
       <Typography variant="h6" gutterBottom sx={{ mt: 3 }}>
         Social
       </Typography>
