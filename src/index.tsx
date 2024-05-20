@@ -8,6 +8,7 @@ import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
 import CookingTips from "./Pages/CookingTips";
 import Recipes from "./Pages/Recipes";
 import InternationalFood from "./Pages/InternationalFood";
+import FoodVloggers from "./Pages/FoodVloggers";
 
 const config = {
   url: "http://localhost:4242/api/frontend", // Your front-end API URL or the Unleash proxy's URL (https://<proxy-url>/proxy)
@@ -29,6 +30,7 @@ root.render(
           <Route path="/recipes" element={<Recipes />} />
           <Route path="/cooking-tips" element={<CookingTips />} />
           <Route path="/international-food" element={<InternationalFood />} />
+          <Route path="/food-vloggers" element={<FoodVloggers />} />
         </Routes>
       </Router>
     </FlagProvider>
