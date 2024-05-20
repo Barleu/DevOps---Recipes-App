@@ -1,4 +1,4 @@
-// CookingTipsPage.tsx
+// RecipesPage.tsx
 import React from "react";
 import CssBaseline from "@mui/material/CssBaseline";
 import Container from "@mui/material/Container";
@@ -7,8 +7,7 @@ import MainFeaturedPost from "../Posts/MainFeaturedPost";
 import FeaturedPost from "../Posts/FeaturedPost";
 import Main from "../Main/Main";
 import Footer from "../Footer/Footer";
-import cookingTipsPost1 from "../Posts/cookingTipsPost1";
-import cookingTipsPost2 from "../Posts/cookingTipsPost2";
+import recipePost1 from "../Posts/recipePost1";
 import Grid from "@mui/material/Grid";
 
 const sections = [
@@ -19,41 +18,33 @@ const sections = [
 ];
 
 const mainFeaturedPost = {
-  title: "Mastering the Art of Cooking",
+  title: "Delicious Recipes for Every Occasion",
   description:
-    "Explore our collection of cooking tips and tricks to enhance your culinary skills and create mouthwatering dishes with confidence.",
-  image: "https://source.unsplash.com/random?cooking",
-  imageText: "Cooking tips",
+    "Explore our collection of mouthwatering recipes, from comforting classics to innovative dishes that will impress your guests.",
+  image: "https://source.unsplash.com/random?recipes",
+  imageText: "Recipes",
   linkText: "Explore more",
 };
 
 const featuredPosts = [
   {
-    title: "Essential Knife Skills Every Chef Should Master",
-    date: "May 25",
+    title: "Classic Spaghetti Carbonara",
+    date: "June 1",
     description:
-      "Discover the fundamental knife skills that are essential for every home cook and professional chef.",
-    image: "https://source.unsplash.com/random?knife-cooking",
-    imageLabel: "Knife skills",
-  },
-  {
-    title: "5 Essential Tips for Perfect Sourdough Bread",
-    date: "May 25, 2022",
-    description:
-      "Learn the secrets to baking the perfect sourdough bread, from maintaining your starter to achieving that coveted crust.",
-    image: "https://source.unsplash.com/random?bread",
-    imageLabel: "Sourdough bread",
+      "Indulge in this classic Italian pasta dish made with eggs, pancetta, and Parmesan cheese. It's simple, flavorful, and perfect for a cozy night in.",
+    image: "https://source.unsplash.com/random?spaghetti-carbonara",
+    imageLabel: "Spaghetti carbonara",
   },
 ];
 
-const posts = [cookingTipsPost1, cookingTipsPost2]; // Include specific cooking tips posts
+const posts = [recipePost1];
 
-const CookingTipsPage: React.FC = () => {
+const RecipesPage: React.FC = () => {
   return (
     <>
       <CssBaseline />
       <Container maxWidth="lg">
-        <Header title="Cooking Tips" sections={sections} />
+        <Header title="Recipes" sections={sections} />
         <main>
           <MainFeaturedPost post={mainFeaturedPost} />
           <Container>
@@ -76,4 +67,4 @@ const CookingTipsPage: React.FC = () => {
   );
 };
 
-export default CookingTipsPage;
+export default RecipesPage;

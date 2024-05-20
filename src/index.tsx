@@ -6,6 +6,7 @@ import reportWebVitals from "./reportWebVitals";
 import FlagProvider from "@unleash/proxy-client-react";
 import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
 import CookingTips from "./Pages/CookingTips";
+import Recipes from "./Pages/Recipes";
 
 const config = {
   url: "http://localhost:4242/api/frontend", // Your front-end API URL or the Unleash proxy's URL (https://<proxy-url>/proxy)
@@ -24,6 +25,7 @@ root.render(
       <Router>
         <Routes>
           <Route path="/" element={<App />} />
+          <Route path="/recipes" element={<Recipes />} />
           <Route path="/cooking-tips" element={<CookingTips />} />
         </Routes>
       </Router>
